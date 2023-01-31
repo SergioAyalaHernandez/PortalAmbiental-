@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ParteOneComponent } from './pages/home/parte-one/parte-one.component';
 import { ParteTwoComponent } from './pages/home/parte-two/parte-two.component';
 import { ParteThreeComponent } from './pages/home/parte-three/parte-three.component';
+import { ParteFourComponent } from './pages/home/parte-four/parte-four.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ParteThreeComponent } from './pages/home/parte-three/parte-three.compon
     HomeComponent,
     ParteOneComponent,
     ParteTwoComponent,
-    ParteThreeComponent
+    ParteThreeComponent,
+    ParteFourComponent
   ],
   imports: [
     CommonModule,
